@@ -62,3 +62,21 @@ CocoaPods: 1.16.2
 		MKMapViewDelegate.mapView(_:didAdd:)!
 		as (MKMapViewDelegate) -> (MKMapView, [MKOverlayRenderer]) -> Void))
 ```
+
+### ■ ソースコードの修正
+
+前準備にて設定したAPIのパスをソースコードで指定します。  
+
+**AppCommon.swift**  
+以下の２行をAPIのあるサーバーに合わせて値を変更して下さい。
+
+<pre>
+static public let domain = "https://hogehoge.com"  
+static public let API_PATH = "\(domain)/API/"
+</pre>
+
+
+
+
+
+
