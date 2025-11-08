@@ -1,0 +1,1262 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		258F668E3F0D25972763E7B9 /* Pods_RadioSnap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E13DDD1ACDF33F5DD101C670 /* Pods_RadioSnap.framework */; };
+		45007A8D2DF1D28100D2C0C4 /* RadikoDownloaderPara.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45007A8C2DF1D28100D2C0C4 /* RadikoDownloaderPara.swift */; };
+		45007A8E2DF24E5200D2C0C4 /* RadikoDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4522A1E12DDB1229007F813B /* RadikoDownloader.swift */; };
+		4522A18F2DD2070B007F813B /* CommonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4522A18A2DD2070B007F813B /* CommonView.swift */; };
+		4522A1902DD2070B007F813B /* CommnLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4522A1892DD2070B007F813B /* CommnLayer.swift */; };
+		4522A1912DD2070B007F813B /* CommonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4522A18B2DD2070B007F813B /* CommonViewController.swift */; };
+		4522A1922DD2070B007F813B /* EtcTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4522A18C2DD2070B007F813B /* EtcTools.swift */; };
+		4522A1932DD2070B007F813B /* LatLon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4522A18D2DD2070B007F813B /* LatLon.swift */; };
+		4522A1942DD2070B007F813B /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4522A18E2DD2070B007F813B /* Toast.swift */; };
+		4522A1A22DD2071E007F813B /* UIImage+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4522A19C2DD2071E007F813B /* UIImage+ext.swift */; };
+		4522A1A32DD2071E007F813B /* Array+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4522A1952DD2071E007F813B /* Array+ext.swift */; };
+		4522A1A42DD2071E007F813B /* SceneDelegate+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4522A1982DD2071E007F813B /* SceneDelegate+ext.swift */; };
+		4522A1A52DD2071E007F813B /* Date+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4522A1962DD2071E007F813B /* Date+ext.swift */; };
+		4522A1A62DD2071E007F813B /* UIScrollView+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4522A19F2DD2071E007F813B /* UIScrollView+ext.swift */; };
+		4522A1A72DD2071E007F813B /* UIView+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4522A1A12DD2071E007F813B /* UIView+ext.swift */; };
+		4522A1A82DD2071E007F813B /* UIButton+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4522A19A2DD2071E007F813B /* UIButton+ext.swift */; };
+		4522A1A92DD2071E007F813B /* Regexp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4522A1972DD2071E007F813B /* Regexp.swift */; };
+		4522A1AA2DD2071E007F813B /* String+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4522A1992DD2071E007F813B /* String+ext.swift */; };
+		4522A1AB2DD2071E007F813B /* UIColor+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4522A19B2DD2071E007F813B /* UIColor+ext.swift */; };
+		4522A1AC2DD2071E007F813B /* UIImageView+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4522A19D2DD2071E007F813B /* UIImageView+ext.swift */; };
+		4522A1AD2DD2071E007F813B /* UISearchBar+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4522A1A02DD2071E007F813B /* UISearchBar+ext.swift */; };
+		4522A1AE2DD2071E007F813B /* UIResponder+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4522A19E2DD2071E007F813B /* UIResponder+ext.swift */; };
+		4522A1B42DD20D87007F813B /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4522A1B32DD20D87007F813B /* DataModel.swift */; };
+		4522A1BC2DD20EB0007F813B /* Booking+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4522A1B62DD20EB0007F813B /* Booking+CoreDataClass.swift */; };
+		4522A1BD2DD20EB0007F813B /* Download+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4522A1B82DD20EB0007F813B /* Download+CoreDataClass.swift */; };
+		4522A1BE2DD20EB0007F813B /* Download+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4522A1B92DD20EB0007F813B /* Download+CoreDataProperties.swift */; };
+		4522A1BF2DD20EB0007F813B /* TimeTable+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4522A1BA2DD20EB0007F813B /* TimeTable+CoreDataClass.swift */; };
+		4522A1C02DD20EB0007F813B /* Booking+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4522A1B72DD20EB0007F813B /* Booking+CoreDataProperties.swift */; };
+		4522A1C12DD20EB0007F813B /* TimeTable+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4522A1BB2DD20EB0007F813B /* TimeTable+CoreDataProperties.swift */; };
+		4522A1C42DD22357007F813B /* Booking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4522A1C32DD22350007F813B /* Booking.swift */; };
+		4522A1C62DD22C21007F813B /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4522A1C52DD22C18007F813B /* Download.swift */; };
+		4522A1C82DD22EB8007F813B /* TimeTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4522A1C72DD22EB3007F813B /* TimeTable.swift */; };
+		4522A1DC2DD4A544007F813B /* MainViewController+Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4522A1DB2DD4A544007F813B /* MainViewController+Cell.swift */; };
+		4522A1DE2DD628B3007F813B /* StationDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4522A1DD2DD628B3007F813B /* StationDB.swift */; };
+		4522A1E02DD69244007F813B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4522A1DF2DD69244007F813B /* InfoPlist.strings */; };
+		4525F0032DDE799700DDE8D8 /* RadikoDownloaderDummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4525F0022DDE799700DDE8D8 /* RadikoDownloaderDummy.swift */; };
+		454E5AA92DF62CEC0022E2C2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454E5AA82DF62CEC0022E2C2 /* SettingsViewController.swift */; };
+		454E5AAB2DF62DA70022E2C2 /* SettingTableHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454E5AAA2DF62DA70022E2C2 /* SettingTableHolder.swift */; };
+		456AAFF72DF99679005B8636 /* WatchSessionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456AAFF62DF99679005B8636 /* WatchSessionHandler.swift */; };
+		4584B1172DE42D2400CD4446 /* ScrollFriendlyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4584B1162DE42D2400CD4446 /* ScrollFriendlyButton.swift */; };
+		4584B1192DE45A7000CD4446 /* TimeTableHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4584B1182DE45A7000CD4446 /* TimeTableHelper.swift */; };
+		4584B11B2DE4A93400CD4446 /* PlaylistViewController+Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4584B11A2DE4A93400CD4446 /* PlaylistViewController+Cell.swift */; };
+		4584B11D2DE4A94C00CD4446 /* TimetableViewController+Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4584B11C2DE4A94C00CD4446 /* TimetableViewController+Cell.swift */; };
+		4586DCB82DEC8EEA00695C84 /* ProgramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4586DCB72DEC8EEA00695C84 /* ProgramViewController.swift */; };
+		4586DCBA2DEC91DB00695C84 /* ProgramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4586DCB92DEC91DB00695C84 /* ProgramView.swift */; };
+		4586DCC02DEDE29800695C84 /* PlaylistMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4586DCBF2DEDE29800695C84 /* PlaylistMenuView.swift */; };
+		4586DCC22DEDE2E900695C84 /* MainCardMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4586DCC12DEDE2E900695C84 /* MainCardMenuView.swift */; };
+		4586DCC42DEF902700695C84 /* AudioPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4586DCC32DEF902700695C84 /* AudioPlayerManager.swift */; };
+		4586DCC82DEF927700695C84 /* DownloaderBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4586DCC72DEF927700695C84 /* DownloaderBase.swift */; };
+		458CEF502DD6D5CB00CF85C5 /* SimplePopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458CEF4F2DD6D5CB00CF85C5 /* SimplePopup.swift */; };
+		458CEF522DDA8B5100CF85C5 /* CouponDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458CEF512DDA8B5100CF85C5 /* CouponDB.swift */; };
+		45B5EAB22DDECC7A0001C081 /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 45B5EAB12DDECC7A0001C081 /* ZIPFoundation */; };
+		45B5EAB62DE015520001C081 /* TimetableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B5EAB52DE015520001C081 /* TimetableViewController.swift */; };
+		45B5EAB82DE0157E0001C081 /* PlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B5EAB72DE0157E0001C081 /* PlaylistViewController.swift */; };
+		45B5EABA2DE877AE0001C081 /* WeekdayPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B5EAB92DE877AE0001C081 /* WeekdayPopup.swift */; };
+		45B5EABE2DED26FA0001C081 /* PlaylistSortPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B5EABD2DED26FA0001C081 /* PlaylistSortPopup.swift */; };
+		45B5EAC02DED49CF0001C081 /* CustomPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B5EABF2DED49CF0001C081 /* CustomPresentationController.swift */; };
+		45B5EAC22DED4AE00001C081 /* PlaylistMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B5EAC12DED4AE00001C081 /* PlaylistMenuViewController.swift */; };
+		45B5EAC52DED50CA0001C081 /* MainCardMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B5EAC42DED50CA0001C081 /* MainCardMenuViewController.swift */; };
+		45C45ABF2DF977B100E9EAFB /* RadioSnapWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 45C45AB52DF977AE00E9EAFB /* RadioSnapWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		45C45ADF2DF9BB1B00E9EAFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45C45AD82DF9BB1B00E9EAFB /* Assets.xcassets */; };
+		45C45AE02DF9BB1B00E9EAFB /* AudioListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C45AD92DF9BB1B00E9EAFB /* AudioListView.swift */; };
+		45C45AE12DF9BB1B00E9EAFB /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C45ADA2DF9BB1B00E9EAFB /* Common.swift */; };
+		45C45AE22DF9BB1B00E9EAFB /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C45ADB2DF9BB1B00E9EAFB /* MainView.swift */; };
+		45C45AE32DF9BB1B00E9EAFB /* RadioSnapWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C45ADC2DF9BB1B00E9EAFB /* RadioSnapWatchApp.swift */; };
+		45C45AE42DF9BB1B00E9EAFB /* WatchSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C45ADD2DF9BB1B00E9EAFB /* WatchSessionManager.swift */; };
+		45C45AE92DFA59AC00E9EAFB /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C45AE82DFA59AC00E9EAFB /* CoreDataManager.swift */; };
+		45C45AEE2DFBB1BC00E9EAFB /* BlinkText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C45AED2DFBB1BC00E9EAFB /* BlinkText.swift */; };
+		45C892F52DD1A96300E2526B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45C892E02DD1A96300E2526B /* Assets.xcassets */; };
+		45C892F62DD1A96300E2526B /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45C892E12DD1A96300E2526B /* Colors.xcassets */; };
+		45C892F72DD1A96300E2526B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45C892E32DD1A96300E2526B /* LaunchScreen.storyboard */; };
+		45C892F82DD1A96300E2526B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45C892E52DD1A96300E2526B /* Main.storyboard */; };
+		45C892FA2DD1A96300E2526B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C892E72DD1A96300E2526B /* AppDelegate.swift */; };
+		45C892FB2DD1A96300E2526B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C892E82DD1A96300E2526B /* SceneDelegate.swift */; };
+		45C892FC2DD1A96300E2526B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C892EB2DD1A96300E2526B /* MainViewController.swift */; };
+		45C892FD2DD1A96300E2526B /* RadioSnap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 45C892F22DD1A96300E2526B /* RadioSnap.xcdatamodeld */; };
+		45C893092DD1ABF500E2526B /* AppCommonButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C892FF2DD1ABF500E2526B /* AppCommonButton.swift */; };
+		45C8930A2DD1ABF500E2526B /* AppCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C892FE2DD1ABF500E2526B /* AppCommon.swift */; };
+		45C8930C2DD1ABF500E2526B /* AppCommonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C893022DD1ABF500E2526B /* AppCommonViewController.swift */; };
+		45C8930D2DD1ABF500E2526B /* SubContentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C893082DD1ABF500E2526B /* SubContentsView.swift */; };
+		45C8930E2DD1ABF500E2526B /* PresenterCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C893072DD1ABF500E2526B /* PresenterCommon.swift */; };
+		45C8930F2DD1ABF500E2526B /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C893062DD1ABF500E2526B /* ModalViewController.swift */; };
+		45C893112DD1ABF500E2526B /* LoadingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C893052DD1ABF500E2526B /* LoadingLabel.swift */; };
+		45C893122DD1ABF500E2526B /* FloatingBtnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C893042DD1ABF500E2526B /* FloatingBtnView.swift */; };
+		45C893132DD1ABF500E2526B /* AppIconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C893032DD1ABF500E2526B /* AppIconButton.swift */; };
+		45C893882DD329B400E2526B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C893872DD329AA00E2526B /* MainView.swift */; };
+		45C8938A2DD329D000E2526B /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C893892DD329CC00E2526B /* MainPresenter.swift */; };
+		45C893902DD3336F00E2526B /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45C8938F2DD3336F00E2526B /* MainTableViewCell.xib */; };
+		45C893922DD333AE00E2526B /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C893912DD333AE00E2526B /* MainTableViewCell.swift */; };
+		45C893962DD421F700E2526B /* PlaylistTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45C893942DD421F700E2526B /* PlaylistTableViewCell.xib */; };
+		45C893972DD421F700E2526B /* PlaylistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C893932DD421F700E2526B /* PlaylistTableViewCell.swift */; };
+		45C893982DD421F700E2526B /* PlaylistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C893952DD421F700E2526B /* PlaylistView.swift */; };
+		45C8939A2DD4222000E2526B /* PlaylistPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C893992DD4222000E2526B /* PlaylistPresenter.swift */; };
+		45C8939F2DD4227100E2526B /* TimetableTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45C8939D2DD4227100E2526B /* TimetableTableViewCell.xib */; };
+		45C893A02DD4227100E2526B /* TimetableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C8939E2DD4227100E2526B /* TimetableView.swift */; };
+		45C893A12DD4227100E2526B /* TimetablePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C8939B2DD4227100E2526B /* TimetablePresenter.swift */; };
+		45C893A22DD4227100E2526B /* TimetableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C8939C2DD4227100E2526B /* TimetableTableViewCell.swift */; };
+		45C893A42DD4227D00E2526B /* SettingsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C893A32DD4227D00E2526B /* SettingsPresenter.swift */; };
+		45C893A62DD5B9B500E2526B /* StationLocalDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C893A52DD5B9B500E2526B /* StationLocalDB.swift */; };
+		45D611542DF6C6F900C72737 /* SelectFilePopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D611532DF6C6F900C72737 /* SelectFilePopup.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45C45ABD2DF977B100E9EAFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45C88C172DD141C900E2526B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45C45AB42DF977AE00E9EAFB;
+			remoteInfo = "RadioSnapWatch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		45C45AC02DF977B100E9EAFB /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				45C45ABF2DF977B100E9EAFB /* RadioSnapWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		45007A8C2DF1D28100D2C0C4 /* RadikoDownloaderPara.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadikoDownloaderPara.swift; sourceTree = "<group>"; };
+		4505CF322DF7F11500612523 /* RadioSnap.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RadioSnap.entitlements; sourceTree = "<group>"; };
+		4522A1892DD2070B007F813B /* CommnLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommnLayer.swift; sourceTree = "<group>"; };
+		4522A18A2DD2070B007F813B /* CommonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonView.swift; sourceTree = "<group>"; };
+		4522A18B2DD2070B007F813B /* CommonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonViewController.swift; sourceTree = "<group>"; };
+		4522A18C2DD2070B007F813B /* EtcTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtcTools.swift; sourceTree = "<group>"; };
+		4522A18D2DD2070B007F813B /* LatLon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatLon.swift; sourceTree = "<group>"; };
+		4522A18E2DD2070B007F813B /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		4522A1952DD2071E007F813B /* Array+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+ext.swift"; sourceTree = "<group>"; };
+		4522A1962DD2071E007F813B /* Date+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+ext.swift"; sourceTree = "<group>"; };
+		4522A1972DD2071E007F813B /* Regexp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regexp.swift; sourceTree = "<group>"; };
+		4522A1982DD2071E007F813B /* SceneDelegate+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SceneDelegate+ext.swift"; sourceTree = "<group>"; };
+		4522A1992DD2071E007F813B /* String+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+ext.swift"; sourceTree = "<group>"; };
+		4522A19A2DD2071E007F813B /* UIButton+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+ext.swift"; sourceTree = "<group>"; };
+		4522A19B2DD2071E007F813B /* UIColor+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+ext.swift"; sourceTree = "<group>"; };
+		4522A19C2DD2071E007F813B /* UIImage+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+ext.swift"; sourceTree = "<group>"; };
+		4522A19D2DD2071E007F813B /* UIImageView+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+ext.swift"; sourceTree = "<group>"; };
+		4522A19E2DD2071E007F813B /* UIResponder+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIResponder+ext.swift"; sourceTree = "<group>"; };
+		4522A19F2DD2071E007F813B /* UIScrollView+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+ext.swift"; sourceTree = "<group>"; };
+		4522A1A02DD2071E007F813B /* UISearchBar+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UISearchBar+ext.swift"; sourceTree = "<group>"; };
+		4522A1A12DD2071E007F813B /* UIView+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ext.swift"; sourceTree = "<group>"; };
+		4522A1B32DD20D87007F813B /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		4522A1B62DD20EB0007F813B /* Booking+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Booking+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4522A1B72DD20EB0007F813B /* Booking+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Booking+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4522A1B82DD20EB0007F813B /* Download+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Download+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4522A1B92DD20EB0007F813B /* Download+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Download+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4522A1BA2DD20EB0007F813B /* TimeTable+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeTable+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4522A1BB2DD20EB0007F813B /* TimeTable+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeTable+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4522A1C32DD22350007F813B /* Booking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Booking.swift; sourceTree = "<group>"; };
+		4522A1C52DD22C18007F813B /* Download.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Download.swift; sourceTree = "<group>"; };
+		4522A1C72DD22EB3007F813B /* TimeTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTable.swift; sourceTree = "<group>"; };
+		4522A1DB2DD4A544007F813B /* MainViewController+Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController+Cell.swift"; sourceTree = "<group>"; };
+		4522A1DD2DD628B3007F813B /* StationDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationDB.swift; sourceTree = "<group>"; };
+		4522A1DF2DD69244007F813B /* InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		4522A1E12DDB1229007F813B /* RadikoDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadikoDownloader.swift; sourceTree = "<group>"; };
+		4525F0022DDE799700DDE8D8 /* RadikoDownloaderDummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadikoDownloaderDummy.swift; sourceTree = "<group>"; };
+		454E5AA82DF62CEC0022E2C2 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		454E5AAA2DF62DA70022E2C2 /* SettingTableHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableHolder.swift; sourceTree = "<group>"; };
+		456AAFF62DF99679005B8636 /* WatchSessionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSessionHandler.swift; sourceTree = "<group>"; };
+		4584B1162DE42D2400CD4446 /* ScrollFriendlyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollFriendlyButton.swift; sourceTree = "<group>"; };
+		4584B1182DE45A7000CD4446 /* TimeTableHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableHelper.swift; sourceTree = "<group>"; };
+		4584B11A2DE4A93400CD4446 /* PlaylistViewController+Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlaylistViewController+Cell.swift"; sourceTree = "<group>"; };
+		4584B11C2DE4A94C00CD4446 /* TimetableViewController+Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimetableViewController+Cell.swift"; sourceTree = "<group>"; };
+		4586DCB72DEC8EEA00695C84 /* ProgramViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramViewController.swift; sourceTree = "<group>"; };
+		4586DCB92DEC91DB00695C84 /* ProgramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramView.swift; sourceTree = "<group>"; };
+		4586DCBF2DEDE29800695C84 /* PlaylistMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistMenuView.swift; sourceTree = "<group>"; };
+		4586DCC12DEDE2E900695C84 /* MainCardMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCardMenuView.swift; sourceTree = "<group>"; };
+		4586DCC32DEF902700695C84 /* AudioPlayerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerManager.swift; sourceTree = "<group>"; };
+		4586DCC72DEF927700695C84 /* DownloaderBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloaderBase.swift; sourceTree = "<group>"; };
+		458CEF4F2DD6D5CB00CF85C5 /* SimplePopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePopup.swift; sourceTree = "<group>"; };
+		458CEF512DDA8B5100CF85C5 /* CouponDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponDB.swift; sourceTree = "<group>"; };
+		45B5EAB52DE015520001C081 /* TimetableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableViewController.swift; sourceTree = "<group>"; };
+		45B5EAB72DE0157E0001C081 /* PlaylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistViewController.swift; sourceTree = "<group>"; };
+		45B5EAB92DE877AE0001C081 /* WeekdayPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdayPopup.swift; sourceTree = "<group>"; };
+		45B5EABD2DED26FA0001C081 /* PlaylistSortPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistSortPopup.swift; sourceTree = "<group>"; };
+		45B5EABF2DED49CF0001C081 /* CustomPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPresentationController.swift; sourceTree = "<group>"; };
+		45B5EAC12DED4AE00001C081 /* PlaylistMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistMenuViewController.swift; sourceTree = "<group>"; };
+		45B5EAC42DED50CA0001C081 /* MainCardMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCardMenuViewController.swift; sourceTree = "<group>"; };
+		45C45AB52DF977AE00E9EAFB /* RadioSnapWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RadioSnapWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45C45AD82DF9BB1B00E9EAFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45C45AD92DF9BB1B00E9EAFB /* AudioListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioListView.swift; sourceTree = "<group>"; };
+		45C45ADA2DF9BB1B00E9EAFB /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		45C45ADB2DF9BB1B00E9EAFB /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		45C45ADC2DF9BB1B00E9EAFB /* RadioSnapWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioSnapWatchApp.swift; sourceTree = "<group>"; };
+		45C45ADD2DF9BB1B00E9EAFB /* WatchSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSessionManager.swift; sourceTree = "<group>"; };
+		45C45AE82DFA59AC00E9EAFB /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		45C45AED2DFBB1BC00E9EAFB /* BlinkText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlinkText.swift; sourceTree = "<group>"; };
+		45C88C1F2DD141C900E2526B /* RadioSnap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadioSnap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45C892E02DD1A96300E2526B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45C892E12DD1A96300E2526B /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		45C892E22DD1A96300E2526B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45C892E42DD1A96300E2526B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45C892E72DD1A96300E2526B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45C892E82DD1A96300E2526B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		45C892EB2DD1A96300E2526B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		45C892F12DD1A96300E2526B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45C892F42DD1A96300E2526B /* RadioSnap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RadioSnap.xcdatamodel; sourceTree = "<group>"; };
+		45C892FE2DD1ABF500E2526B /* AppCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCommon.swift; sourceTree = "<group>"; };
+		45C892FF2DD1ABF500E2526B /* AppCommonButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCommonButton.swift; sourceTree = "<group>"; };
+		45C893022DD1ABF500E2526B /* AppCommonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCommonViewController.swift; sourceTree = "<group>"; };
+		45C893032DD1ABF500E2526B /* AppIconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconButton.swift; sourceTree = "<group>"; };
+		45C893042DD1ABF500E2526B /* FloatingBtnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingBtnView.swift; sourceTree = "<group>"; };
+		45C893052DD1ABF500E2526B /* LoadingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingLabel.swift; sourceTree = "<group>"; };
+		45C893062DD1ABF500E2526B /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+		45C893072DD1ABF500E2526B /* PresenterCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenterCommon.swift; sourceTree = "<group>"; };
+		45C893082DD1ABF500E2526B /* SubContentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubContentsView.swift; sourceTree = "<group>"; };
+		45C893872DD329AA00E2526B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		45C893892DD329CC00E2526B /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		45C8938F2DD3336F00E2526B /* MainTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
+		45C893912DD333AE00E2526B /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		45C893932DD421F700E2526B /* PlaylistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistTableViewCell.swift; sourceTree = "<group>"; };
+		45C893942DD421F700E2526B /* PlaylistTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlaylistTableViewCell.xib; sourceTree = "<group>"; };
+		45C893952DD421F700E2526B /* PlaylistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistView.swift; sourceTree = "<group>"; };
+		45C893992DD4222000E2526B /* PlaylistPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistPresenter.swift; sourceTree = "<group>"; };
+		45C8939B2DD4227100E2526B /* TimetablePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetablePresenter.swift; sourceTree = "<group>"; };
+		45C8939C2DD4227100E2526B /* TimetableTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableTableViewCell.swift; sourceTree = "<group>"; };
+		45C8939D2DD4227100E2526B /* TimetableTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimetableTableViewCell.xib; sourceTree = "<group>"; };
+		45C8939E2DD4227100E2526B /* TimetableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableView.swift; sourceTree = "<group>"; };
+		45C893A32DD4227D00E2526B /* SettingsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPresenter.swift; sourceTree = "<group>"; };
+		45C893A52DD5B9B500E2526B /* StationLocalDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationLocalDB.swift; sourceTree = "<group>"; };
+		45D611532DF6C6F900C72737 /* SelectFilePopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectFilePopup.swift; sourceTree = "<group>"; };
+		6940747BC10334F7714BBA02 /* Pods-RadioSnap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadioSnap.release.xcconfig"; path = "Target Support Files/Pods-RadioSnap/Pods-RadioSnap.release.xcconfig"; sourceTree = "<group>"; };
+		E13DDD1ACDF33F5DD101C670 /* Pods_RadioSnap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RadioSnap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF55EE57CB53DA1A22405AD /* Pods-RadioSnap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadioSnap.debug.xcconfig"; path = "Target Support Files/Pods-RadioSnap/Pods-RadioSnap.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45C45AB22DF977AE00E9EAFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45C88C1C2DD141C900E2526B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				258F668E3F0D25972763E7B9 /* Pods_RadioSnap.framework in Frameworks */,
+				45B5EAB22DDECC7A0001C081 /* ZIPFoundation in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C10E2718CC0FD6C849C6862 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E13DDD1ACDF33F5DD101C670 /* Pods_RadioSnap.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4522A1B52DD20E12007F813B /* EntitiesAutoGen */ = {
+			isa = PBXGroup;
+			children = (
+				4522A1B62DD20EB0007F813B /* Booking+CoreDataClass.swift */,
+				4522A1B72DD20EB0007F813B /* Booking+CoreDataProperties.swift */,
+				4522A1B82DD20EB0007F813B /* Download+CoreDataClass.swift */,
+				4522A1B92DD20EB0007F813B /* Download+CoreDataProperties.swift */,
+				4522A1BA2DD20EB0007F813B /* TimeTable+CoreDataClass.swift */,
+				4522A1BB2DD20EB0007F813B /* TimeTable+CoreDataProperties.swift */,
+			);
+			path = EntitiesAutoGen;
+			sourceTree = "<group>";
+		};
+		4522A1C22DD20EDF007F813B /* EntitiesExtension */ = {
+			isa = PBXGroup;
+			children = (
+				4522A1C72DD22EB3007F813B /* TimeTable.swift */,
+				4522A1C52DD22C18007F813B /* Download.swift */,
+				4522A1C32DD22350007F813B /* Booking.swift */,
+			);
+			path = EntitiesExtension;
+			sourceTree = "<group>";
+		};
+		4586DCB62DEC8E9200695C84 /* webview */ = {
+			isa = PBXGroup;
+			children = (
+				4586DCB72DEC8EEA00695C84 /* ProgramViewController.swift */,
+				4586DCB92DEC91DB00695C84 /* ProgramView.swift */,
+			);
+			path = webview;
+			sourceTree = "<group>";
+		};
+		4586DCC52DEF904300695C84 /* downloader */ = {
+			isa = PBXGroup;
+			children = (
+				4586DCC72DEF927700695C84 /* DownloaderBase.swift */,
+				4522A1E12DDB1229007F813B /* RadikoDownloader.swift */,
+				45007A8C2DF1D28100D2C0C4 /* RadikoDownloaderPara.swift */,
+				4525F0022DDE799700DDE8D8 /* RadikoDownloaderDummy.swift */,
+			);
+			path = downloader;
+			sourceTree = "<group>";
+		};
+		4586DCC62DEF908C00695C84 /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				4586DCC32DEF902700695C84 /* AudioPlayerManager.swift */,
+			);
+			path = audio;
+			sourceTree = "<group>";
+		};
+		45B5EABB2DED26B40001C081 /* popup */ = {
+			isa = PBXGroup;
+			children = (
+				45B5EAB92DE877AE0001C081 /* WeekdayPopup.swift */,
+			);
+			path = popup;
+			sourceTree = "<group>";
+		};
+		45B5EABC2DED26C90001C081 /* popup */ = {
+			isa = PBXGroup;
+			children = (
+				45B5EABD2DED26FA0001C081 /* PlaylistSortPopup.swift */,
+				45B5EAC12DED4AE00001C081 /* PlaylistMenuViewController.swift */,
+				4586DCBF2DEDE29800695C84 /* PlaylistMenuView.swift */,
+			);
+			path = popup;
+			sourceTree = "<group>";
+		};
+		45B5EAC32DED508D0001C081 /* popup */ = {
+			isa = PBXGroup;
+			children = (
+				45B5EAC42DED50CA0001C081 /* MainCardMenuViewController.swift */,
+				4586DCC12DEDE2E900695C84 /* MainCardMenuView.swift */,
+			);
+			path = popup;
+			sourceTree = "<group>";
+		};
+		45C45ADE2DF9BB1B00E9EAFB /* RadioSnapWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				45C45AD82DF9BB1B00E9EAFB /* Assets.xcassets */,
+				45C45ADC2DF9BB1B00E9EAFB /* RadioSnapWatchApp.swift */,
+				45C45AEA2DFAA52B00E9EAFB /* common */,
+				45C45ADB2DF9BB1B00E9EAFB /* MainView.swift */,
+				45C45AD92DF9BB1B00E9EAFB /* AudioListView.swift */,
+				45C45ADD2DF9BB1B00E9EAFB /* WatchSessionManager.swift */,
+			);
+			path = "RadioSnapWatch Watch App";
+			sourceTree = "<group>";
+		};
+		45C45AE52DFA587600E9EAFB /* watch */ = {
+			isa = PBXGroup;
+			children = (
+				456AAFF62DF99679005B8636 /* WatchSessionHandler.swift */,
+				45C45AE82DFA59AC00E9EAFB /* CoreDataManager.swift */,
+			);
+			path = watch;
+			sourceTree = "<group>";
+		};
+		45C45AEA2DFAA52B00E9EAFB /* common */ = {
+			isa = PBXGroup;
+			children = (
+				45C45ADA2DF9BB1B00E9EAFB /* Common.swift */,
+				45C45AED2DFBB1BC00E9EAFB /* BlinkText.swift */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		45C88C162DD141C900E2526B = {
+			isa = PBXGroup;
+			children = (
+				45C892F32DD1A96300E2526B /* RadioSnap */,
+				45C45ADE2DF9BB1B00E9EAFB /* RadioSnapWatch Watch App */,
+				45C88C202DD141C900E2526B /* Products */,
+				66A209886354FCB3F7850EFE /* Pods */,
+				3C10E2718CC0FD6C849C6862 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		45C88C202DD141C900E2526B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45C88C1F2DD141C900E2526B /* RadioSnap.app */,
+				45C45AB52DF977AE00E9EAFB /* RadioSnapWatch Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45C892E62DD1A96300E2526B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				45C892E02DD1A96300E2526B /* Assets.xcassets */,
+				45C892E12DD1A96300E2526B /* Colors.xcassets */,
+				45C892E32DD1A96300E2526B /* LaunchScreen.storyboard */,
+				45C892E52DD1A96300E2526B /* Main.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		45C892E92DD1A96300E2526B /* appCommon */ = {
+			isa = PBXGroup;
+			children = (
+				45C8937A2DD1DCA300E2526B /* model */,
+				45C892FE2DD1ABF500E2526B /* AppCommon.swift */,
+				45C892FF2DD1ABF500E2526B /* AppCommonButton.swift */,
+				45C893022DD1ABF500E2526B /* AppCommonViewController.swift */,
+				45C893032DD1ABF500E2526B /* AppIconButton.swift */,
+				45C893042DD1ABF500E2526B /* FloatingBtnView.swift */,
+				45C893052DD1ABF500E2526B /* LoadingLabel.swift */,
+				45C893062DD1ABF500E2526B /* ModalViewController.swift */,
+				45C893072DD1ABF500E2526B /* PresenterCommon.swift */,
+				45C893082DD1ABF500E2526B /* SubContentsView.swift */,
+				45B5EABF2DED49CF0001C081 /* CustomPresentationController.swift */,
+			);
+			path = appCommon;
+			sourceTree = "<group>";
+		};
+		45C892EA2DD1A96300E2526B /* common */ = {
+			isa = PBXGroup;
+			children = (
+				4522A1892DD2070B007F813B /* CommnLayer.swift */,
+				4522A18A2DD2070B007F813B /* CommonView.swift */,
+				4522A18B2DD2070B007F813B /* CommonViewController.swift */,
+				4522A18C2DD2070B007F813B /* EtcTools.swift */,
+				4522A18D2DD2070B007F813B /* LatLon.swift */,
+				4522A18E2DD2070B007F813B /* Toast.swift */,
+				458CEF4F2DD6D5CB00CF85C5 /* SimplePopup.swift */,
+				45C893252DD1AC2000E2526B /* Extensions */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		45C892EC2DD1A96300E2526B /* main */ = {
+			isa = PBXGroup;
+			children = (
+				4586DCC52DEF904300695C84 /* downloader */,
+				45B5EAC32DED508D0001C081 /* popup */,
+				45C892EB2DD1A96300E2526B /* MainViewController.swift */,
+				4522A1DB2DD4A544007F813B /* MainViewController+Cell.swift */,
+				45C893872DD329AA00E2526B /* MainView.swift */,
+				45C893892DD329CC00E2526B /* MainPresenter.swift */,
+				45C893912DD333AE00E2526B /* MainTableViewCell.swift */,
+				45C8938F2DD3336F00E2526B /* MainTableViewCell.xib */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		45C892ED2DD1A96300E2526B /* playlist */ = {
+			isa = PBXGroup;
+			children = (
+				4586DCC62DEF908C00695C84 /* audio */,
+				45B5EABC2DED26C90001C081 /* popup */,
+				45B5EAB72DE0157E0001C081 /* PlaylistViewController.swift */,
+				4584B11A2DE4A93400CD4446 /* PlaylistViewController+Cell.swift */,
+				45C893952DD421F700E2526B /* PlaylistView.swift */,
+				45C893992DD4222000E2526B /* PlaylistPresenter.swift */,
+				45C893932DD421F700E2526B /* PlaylistTableViewCell.swift */,
+				45C893942DD421F700E2526B /* PlaylistTableViewCell.xib */,
+			);
+			path = playlist;
+			sourceTree = "<group>";
+		};
+		45C892EE2DD1A96300E2526B /* settings */ = {
+			isa = PBXGroup;
+			children = (
+				45D611522DF6C6AD00C72737 /* popup */,
+				454E5AA82DF62CEC0022E2C2 /* SettingsViewController.swift */,
+				454E5AAA2DF62DA70022E2C2 /* SettingTableHolder.swift */,
+				45C893A32DD4227D00E2526B /* SettingsPresenter.swift */,
+			);
+			path = settings;
+			sourceTree = "<group>";
+		};
+		45C892EF2DD1A96300E2526B /* timetable */ = {
+			isa = PBXGroup;
+			children = (
+				45B5EABB2DED26B40001C081 /* popup */,
+				4586DCB62DEC8E9200695C84 /* webview */,
+				45B5EAB52DE015520001C081 /* TimetableViewController.swift */,
+				4584B11C2DE4A94C00CD4446 /* TimetableViewController+Cell.swift */,
+				45C8939E2DD4227100E2526B /* TimetableView.swift */,
+				45C8939B2DD4227100E2526B /* TimetablePresenter.swift */,
+				4584B1162DE42D2400CD4446 /* ScrollFriendlyButton.swift */,
+				45C8939C2DD4227100E2526B /* TimetableTableViewCell.swift */,
+				45C8939D2DD4227100E2526B /* TimetableTableViewCell.xib */,
+			);
+			path = timetable;
+			sourceTree = "<group>";
+		};
+		45C892F02DD1A96300E2526B /* SourceCode */ = {
+			isa = PBXGroup;
+			children = (
+				45C892F22DD1A96300E2526B /* RadioSnap.xcdatamodeld */,
+				45C892E72DD1A96300E2526B /* AppDelegate.swift */,
+				45C892E82DD1A96300E2526B /* SceneDelegate.swift */,
+				45C892EA2DD1A96300E2526B /* common */,
+				45C892E92DD1A96300E2526B /* appCommon */,
+				45C892EC2DD1A96300E2526B /* main */,
+				45C892ED2DD1A96300E2526B /* playlist */,
+				45C892EF2DD1A96300E2526B /* timetable */,
+				45C892EE2DD1A96300E2526B /* settings */,
+				45C45AE52DFA587600E9EAFB /* watch */,
+			);
+			path = SourceCode;
+			sourceTree = "<group>";
+		};
+		45C892F32DD1A96300E2526B /* RadioSnap */ = {
+			isa = PBXGroup;
+			children = (
+				4505CF322DF7F11500612523 /* RadioSnap.entitlements */,
+				45C892F12DD1A96300E2526B /* Info.plist */,
+				4522A1DF2DD69244007F813B /* InfoPlist.strings */,
+				45C892E62DD1A96300E2526B /* Resources */,
+				45C892F02DD1A96300E2526B /* SourceCode */,
+			);
+			path = RadioSnap;
+			sourceTree = "<group>";
+		};
+		45C893252DD1AC2000E2526B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4522A1952DD2071E007F813B /* Array+ext.swift */,
+				4522A1962DD2071E007F813B /* Date+ext.swift */,
+				4522A1972DD2071E007F813B /* Regexp.swift */,
+				4522A1982DD2071E007F813B /* SceneDelegate+ext.swift */,
+				4522A1992DD2071E007F813B /* String+ext.swift */,
+				4522A19A2DD2071E007F813B /* UIButton+ext.swift */,
+				4522A19B2DD2071E007F813B /* UIColor+ext.swift */,
+				4522A19C2DD2071E007F813B /* UIImage+ext.swift */,
+				4522A19D2DD2071E007F813B /* UIImageView+ext.swift */,
+				4522A19E2DD2071E007F813B /* UIResponder+ext.swift */,
+				4522A19F2DD2071E007F813B /* UIScrollView+ext.swift */,
+				4522A1A02DD2071E007F813B /* UISearchBar+ext.swift */,
+				4522A1A12DD2071E007F813B /* UIView+ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		45C8937A2DD1DCA300E2526B /* model */ = {
+			isa = PBXGroup;
+			children = (
+				4522A1B32DD20D87007F813B /* DataModel.swift */,
+				4522A1DD2DD628B3007F813B /* StationDB.swift */,
+				45C893A52DD5B9B500E2526B /* StationLocalDB.swift */,
+				458CEF512DDA8B5100CF85C5 /* CouponDB.swift */,
+				4584B1182DE45A7000CD4446 /* TimeTableHelper.swift */,
+				4522A1C22DD20EDF007F813B /* EntitiesExtension */,
+				4522A1B52DD20E12007F813B /* EntitiesAutoGen */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		45D611522DF6C6AD00C72737 /* popup */ = {
+			isa = PBXGroup;
+			children = (
+				45D611532DF6C6F900C72737 /* SelectFilePopup.swift */,
+			);
+			path = popup;
+			sourceTree = "<group>";
+		};
+		66A209886354FCB3F7850EFE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAF55EE57CB53DA1A22405AD /* Pods-RadioSnap.debug.xcconfig */,
+				6940747BC10334F7714BBA02 /* Pods-RadioSnap.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45C45AB42DF977AE00E9EAFB /* RadioSnapWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45C45AC32DF977B100E9EAFB /* Build configuration list for PBXNativeTarget "RadioSnapWatch Watch App" */;
+			buildPhases = (
+				45C45AB12DF977AE00E9EAFB /* Sources */,
+				45C45AB22DF977AE00E9EAFB /* Frameworks */,
+				45C45AB32DF977AE00E9EAFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RadioSnapWatch Watch App";
+			productName = "RadioSnapWatch Watch App";
+			productReference = 45C45AB52DF977AE00E9EAFB /* RadioSnapWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45C88C1E2DD141C900E2526B /* RadioSnap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45C88C352DD141CC00E2526B /* Build configuration list for PBXNativeTarget "RadioSnap" */;
+			buildPhases = (
+				A7C3194B95A911F8FA4C576E /* [CP] Check Pods Manifest.lock */,
+				45C88C1B2DD141C900E2526B /* Sources */,
+				45C88C1C2DD141C900E2526B /* Frameworks */,
+				45C88C1D2DD141C900E2526B /* Resources */,
+				6B1E363AFD693DDA5B23F115 /* [CP] Embed Pods Frameworks */,
+				45C45AC02DF977B100E9EAFB /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45C45ABE2DF977B100E9EAFB /* PBXTargetDependency */,
+			);
+			name = RadioSnap;
+			productName = RadioSnap;
+			productReference = 45C88C1F2DD141C900E2526B /* RadioSnap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45C88C172DD141C900E2526B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					45C45AB42DF977AE00E9EAFB = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					45C88C1E2DD141C900E2526B = {
+						CreatedOnToolsVersion = 16.3;
+					};
+				};
+			};
+			buildConfigurationList = 45C88C1A2DD141C900E2526B /* Build configuration list for PBXProject "RadioSnap" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45C88C162DD141C900E2526B;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				45B5EAB02DDECC7A0001C081 /* XCRemoteSwiftPackageReference "ZIPFoundation" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 45C88C202DD141C900E2526B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45C88C1E2DD141C900E2526B /* RadioSnap */,
+				45C45AB42DF977AE00E9EAFB /* RadioSnapWatch Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45C45AB32DF977AE00E9EAFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C45ADF2DF9BB1B00E9EAFB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45C88C1D2DD141C900E2526B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C892F52DD1A96300E2526B /* Assets.xcassets in Resources */,
+				4522A1E02DD69244007F813B /* InfoPlist.strings in Resources */,
+				45C892F62DD1A96300E2526B /* Colors.xcassets in Resources */,
+				45C8939F2DD4227100E2526B /* TimetableTableViewCell.xib in Resources */,
+				45C892F72DD1A96300E2526B /* LaunchScreen.storyboard in Resources */,
+				45C892F82DD1A96300E2526B /* Main.storyboard in Resources */,
+				45C893902DD3336F00E2526B /* MainTableViewCell.xib in Resources */,
+				45C893962DD421F700E2526B /* PlaylistTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6B1E363AFD693DDA5B23F115 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RadioSnap/Pods-RadioSnap-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RadioSnap/Pods-RadioSnap-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RadioSnap/Pods-RadioSnap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7C3194B95A911F8FA4C576E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RadioSnap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45C45AB12DF977AE00E9EAFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C45AEE2DFBB1BC00E9EAFB /* BlinkText.swift in Sources */,
+				45C45AE02DF9BB1B00E9EAFB /* AudioListView.swift in Sources */,
+				45C45AE12DF9BB1B00E9EAFB /* Common.swift in Sources */,
+				45C45AE22DF9BB1B00E9EAFB /* MainView.swift in Sources */,
+				45C45AE32DF9BB1B00E9EAFB /* RadioSnapWatchApp.swift in Sources */,
+				45C45AE42DF9BB1B00E9EAFB /* WatchSessionManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45C88C1B2DD141C900E2526B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C893092DD1ABF500E2526B /* AppCommonButton.swift in Sources */,
+				45B5EAB62DE015520001C081 /* TimetableViewController.swift in Sources */,
+				45C8930A2DD1ABF500E2526B /* AppCommon.swift in Sources */,
+				45C8930C2DD1ABF500E2526B /* AppCommonViewController.swift in Sources */,
+				45C8930D2DD1ABF500E2526B /* SubContentsView.swift in Sources */,
+				45C8930E2DD1ABF500E2526B /* PresenterCommon.swift in Sources */,
+				4522A1A22DD2071E007F813B /* UIImage+ext.swift in Sources */,
+				4584B1192DE45A7000CD4446 /* TimeTableHelper.swift in Sources */,
+				4522A1A32DD2071E007F813B /* Array+ext.swift in Sources */,
+				458CEF502DD6D5CB00CF85C5 /* SimplePopup.swift in Sources */,
+				4522A1A42DD2071E007F813B /* SceneDelegate+ext.swift in Sources */,
+				4522A1A52DD2071E007F813B /* Date+ext.swift in Sources */,
+				45B5EAB82DE0157E0001C081 /* PlaylistViewController.swift in Sources */,
+				4584B11D2DE4A94C00CD4446 /* TimetableViewController+Cell.swift in Sources */,
+				4522A1A62DD2071E007F813B /* UIScrollView+ext.swift in Sources */,
+				4522A1A72DD2071E007F813B /* UIView+ext.swift in Sources */,
+				4586DCC42DEF902700695C84 /* AudioPlayerManager.swift in Sources */,
+				4586DCB82DEC8EEA00695C84 /* ProgramViewController.swift in Sources */,
+				4522A1A82DD2071E007F813B /* UIButton+ext.swift in Sources */,
+				4522A1B42DD20D87007F813B /* DataModel.swift in Sources */,
+				4522A1A92DD2071E007F813B /* Regexp.swift in Sources */,
+				45C893A02DD4227100E2526B /* TimetableView.swift in Sources */,
+				4522A1DE2DD628B3007F813B /* StationDB.swift in Sources */,
+				454E5AAB2DF62DA70022E2C2 /* SettingTableHolder.swift in Sources */,
+				45007A8D2DF1D28100D2C0C4 /* RadikoDownloaderPara.swift in Sources */,
+				45C893A12DD4227100E2526B /* TimetablePresenter.swift in Sources */,
+				45C893A22DD4227100E2526B /* TimetableTableViewCell.swift in Sources */,
+				4522A1AA2DD2071E007F813B /* String+ext.swift in Sources */,
+				4586DCC22DEDE2E900695C84 /* MainCardMenuView.swift in Sources */,
+				4522A1AB2DD2071E007F813B /* UIColor+ext.swift in Sources */,
+				45B5EABA2DE877AE0001C081 /* WeekdayPopup.swift in Sources */,
+				4522A1AC2DD2071E007F813B /* UIImageView+ext.swift in Sources */,
+				4586DCC82DEF927700695C84 /* DownloaderBase.swift in Sources */,
+				4522A1AD2DD2071E007F813B /* UISearchBar+ext.swift in Sources */,
+				4522A1AE2DD2071E007F813B /* UIResponder+ext.swift in Sources */,
+				45C8930F2DD1ABF500E2526B /* ModalViewController.swift in Sources */,
+				4586DCBA2DEC91DB00695C84 /* ProgramView.swift in Sources */,
+				45007A8E2DF24E5200D2C0C4 /* RadikoDownloader.swift in Sources */,
+				45C893922DD333AE00E2526B /* MainTableViewCell.swift in Sources */,
+				4522A18F2DD2070B007F813B /* CommonView.swift in Sources */,
+				4522A1902DD2070B007F813B /* CommnLayer.swift in Sources */,
+				4584B11B2DE4A93400CD4446 /* PlaylistViewController+Cell.swift in Sources */,
+				4522A1912DD2070B007F813B /* CommonViewController.swift in Sources */,
+				4522A1C82DD22EB8007F813B /* TimeTable.swift in Sources */,
+				4522A1922DD2070B007F813B /* EtcTools.swift in Sources */,
+				4522A1932DD2070B007F813B /* LatLon.swift in Sources */,
+				45B5EAC52DED50CA0001C081 /* MainCardMenuViewController.swift in Sources */,
+				45B5EABE2DED26FA0001C081 /* PlaylistSortPopup.swift in Sources */,
+				45C8939A2DD4222000E2526B /* PlaylistPresenter.swift in Sources */,
+				45C893882DD329B400E2526B /* MainView.swift in Sources */,
+				456AAFF72DF99679005B8636 /* WatchSessionHandler.swift in Sources */,
+				45C893A62DD5B9B500E2526B /* StationLocalDB.swift in Sources */,
+				4522A1942DD2070B007F813B /* Toast.swift in Sources */,
+				4522A1C62DD22C21007F813B /* Download.swift in Sources */,
+				45C45AE92DFA59AC00E9EAFB /* CoreDataManager.swift in Sources */,
+				45C893112DD1ABF500E2526B /* LoadingLabel.swift in Sources */,
+				45C893122DD1ABF500E2526B /* FloatingBtnView.swift in Sources */,
+				45C893132DD1ABF500E2526B /* AppIconButton.swift in Sources */,
+				4522A1DC2DD4A544007F813B /* MainViewController+Cell.swift in Sources */,
+				4522A1BC2DD20EB0007F813B /* Booking+CoreDataClass.swift in Sources */,
+				4522A1BD2DD20EB0007F813B /* Download+CoreDataClass.swift in Sources */,
+				4586DCC02DEDE29800695C84 /* PlaylistMenuView.swift in Sources */,
+				45C893A42DD4227D00E2526B /* SettingsPresenter.swift in Sources */,
+				45B5EAC02DED49CF0001C081 /* CustomPresentationController.swift in Sources */,
+				45C893972DD421F700E2526B /* PlaylistTableViewCell.swift in Sources */,
+				4525F0032DDE799700DDE8D8 /* RadikoDownloaderDummy.swift in Sources */,
+				45C893982DD421F700E2526B /* PlaylistView.swift in Sources */,
+				458CEF522DDA8B5100CF85C5 /* CouponDB.swift in Sources */,
+				454E5AA92DF62CEC0022E2C2 /* SettingsViewController.swift in Sources */,
+				4522A1BE2DD20EB0007F813B /* Download+CoreDataProperties.swift in Sources */,
+				4522A1BF2DD20EB0007F813B /* TimeTable+CoreDataClass.swift in Sources */,
+				4522A1C02DD20EB0007F813B /* Booking+CoreDataProperties.swift in Sources */,
+				4522A1C12DD20EB0007F813B /* TimeTable+CoreDataProperties.swift in Sources */,
+				4522A1C42DD22357007F813B /* Booking.swift in Sources */,
+				45C8938A2DD329D000E2526B /* MainPresenter.swift in Sources */,
+				45C892FA2DD1A96300E2526B /* AppDelegate.swift in Sources */,
+				45C892FB2DD1A96300E2526B /* SceneDelegate.swift in Sources */,
+				4584B1172DE42D2400CD4446 /* ScrollFriendlyButton.swift in Sources */,
+				45B5EAC22DED4AE00001C081 /* PlaylistMenuViewController.swift in Sources */,
+				45C892FC2DD1A96300E2526B /* MainViewController.swift in Sources */,
+				45D611542DF6C6F900C72737 /* SelectFilePopup.swift in Sources */,
+				45C892FD2DD1A96300E2526B /* RadioSnap.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45C45ABE2DF977B100E9EAFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45C45AB42DF977AE00E9EAFB /* RadioSnapWatch Watch App */;
+			targetProxy = 45C45ABD2DF977B100E9EAFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45C892E32DD1A96300E2526B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45C892E22DD1A96300E2526B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		45C892E52DD1A96300E2526B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45C892E42DD1A96300E2526B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45C45AC12DF977B100E9EAFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_TEAM = FU5XULB7NP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "らじすなRimo";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.jjworkshop.RadioSnap;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jjworkshop.RadioSnap.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.7;
+			};
+			name = Debug;
+		};
+		45C45AC22DF977B100E9EAFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_TEAM = FU5XULB7NP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "らじすなRimo";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.jjworkshop.RadioSnap;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jjworkshop.RadioSnap.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.7;
+			};
+			name = Release;
+		};
+		45C88C362DD141CC00E2526B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAF55EE57CB53DA1A22405AD /* Pods-RadioSnap.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RadioSnap/RadioSnap.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_TEAM = FU5XULB7NP;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				EXCLUDED_ARCHS = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RadioSnap/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "らじすな";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app does not directly use your camera. However, a third-party library included in this app may access camera-related functionalities.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "To retrieve radio programs listenable at your current location, the app will access your location information.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "To retrieve radio programs listenable at your current location, the app will access your location information.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "To retrieve radio programs listenable at your current location, the app will access your location information.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.0.1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"c++\"",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"AlamofireImage\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"Differentiator\"",
+					"-framework",
+					"\"FFPopup\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"RxCocoa\"",
+					"-framework",
+					"\"RxCoreLocation\"",
+					"-framework",
+					"\"RxDataSources\"",
+					"-framework",
+					"\"RxGesture\"",
+					"-framework",
+					"\"RxMapKit\"",
+					"-framework",
+					"\"RxOptional\"",
+					"-framework",
+					"\"RxSwift\"",
+					"-framework",
+					"\"RxWebKit\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"pop\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jjworkshop.RadioSnap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		45C88C372DD141CC00E2526B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6940747BC10334F7714BBA02 /* Pods-RadioSnap.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RadioSnap/RadioSnap.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_TEAM = FU5XULB7NP;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				EXCLUDED_ARCHS = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RadioSnap/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "らじすな";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app does not directly use your camera. However, a third-party library included in this app may access camera-related functionalities.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "To retrieve radio programs listenable at your current location, the app will access your location information.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "To retrieve radio programs listenable at your current location, the app will access your location information.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "To retrieve radio programs listenable at your current location, the app will access your location information.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.0.1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"c++\"",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"AlamofireImage\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"Differentiator\"",
+					"-framework",
+					"\"FFPopup\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"RxCocoa\"",
+					"-framework",
+					"\"RxCoreLocation\"",
+					"-framework",
+					"\"RxDataSources\"",
+					"-framework",
+					"\"RxGesture\"",
+					"-framework",
+					"\"RxMapKit\"",
+					"-framework",
+					"\"RxOptional\"",
+					"-framework",
+					"\"RxSwift\"",
+					"-framework",
+					"\"RxWebKit\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"pop\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jjworkshop.RadioSnap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		45C88C382DD141CC00E2526B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = FU5XULB7NP;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45C88C392DD141CC00E2526B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = FU5XULB7NP;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45C45AC32DF977B100E9EAFB /* Build configuration list for PBXNativeTarget "RadioSnapWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45C45AC12DF977B100E9EAFB /* Debug */,
+				45C45AC22DF977B100E9EAFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45C88C1A2DD141C900E2526B /* Build configuration list for PBXProject "RadioSnap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45C88C382DD141CC00E2526B /* Debug */,
+				45C88C392DD141CC00E2526B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45C88C352DD141CC00E2526B /* Build configuration list for PBXNativeTarget "RadioSnap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45C88C362DD141CC00E2526B /* Debug */,
+				45C88C372DD141CC00E2526B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		45B5EAB02DDECC7A0001C081 /* XCRemoteSwiftPackageReference "ZIPFoundation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/weichsel/ZIPFoundation";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.19;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		45B5EAB12DDECC7A0001C081 /* ZIPFoundation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45B5EAB02DDECC7A0001C081 /* XCRemoteSwiftPackageReference "ZIPFoundation" */;
+			productName = ZIPFoundation;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		45C892F22DD1A96300E2526B /* RadioSnap.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				45C892F42DD1A96300E2526B /* RadioSnap.xcdatamodel */,
+			);
+			currentVersion = 45C892F42DD1A96300E2526B /* RadioSnap.xcdatamodel */;
+			path = RadioSnap.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 45C88C172DD141C900E2526B /* Project object */;
+}

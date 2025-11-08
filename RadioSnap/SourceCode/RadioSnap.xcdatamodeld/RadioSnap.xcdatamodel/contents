@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="23788" systemVersion="24E263" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Booking" representedClassName="Booking" syncable="YES">
+        <attribute name="bcDate" optional="YES" attributeType="String"/>
+        <attribute name="bcTime" optional="YES" attributeType="String"/>
+        <attribute name="endDt" optional="YES" attributeType="String"/>
+        <attribute name="imgUrl" optional="YES" attributeType="String"/>
+        <attribute name="pfm" optional="YES" attributeType="String"/>
+        <attribute name="seqNo" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="startDt" optional="YES" attributeType="String"/>
+        <attribute name="stationId" optional="YES" attributeType="String"/>
+        <attribute name="status" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="url" optional="YES" attributeType="String"/>
+        <attribute name="uuid" optional="YES" attributeType="String"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="uuid"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <entity name="Download" representedClassName="Download" syncable="YES">
+        <attribute name="bcDate" optional="YES" attributeType="String"/>
+        <attribute name="bcTime" optional="YES" attributeType="String"/>
+        <attribute name="copied" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="duration" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="endDt" optional="YES" attributeType="String"/>
+        <attribute name="imgUrl" optional="YES" attributeType="String"/>
+        <attribute name="pfm" optional="YES" attributeType="String"/>
+        <attribute name="playbackSec" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="played" optional="YES" attributeType="Boolean" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="startDt" optional="YES" attributeType="String"/>
+        <attribute name="stationId" optional="YES" attributeType="String"/>
+        <attribute name="stationName" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="uuid" optional="YES" attributeType="String"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="uuid"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <entity name="TimeTable" representedClassName="TimeTable" syncable="YES">
+        <attribute name="jsonStr" optional="YES" attributeType="String"/>
+        <attribute name="stationId" optional="YES" attributeType="String"/>
+        <attribute name="todayStr" optional="YES" attributeType="String"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="stationId"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+</model>

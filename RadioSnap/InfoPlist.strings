@@ -1,0 +1,22 @@
+/* 
+  InfoPlist.strings
+ RadioSnap
+
+  Created by Mitsuhiro Shirai on 2025/05/16.
+  Copyright © 2020 Mitsuhiro Shirai. All rights reserved.
+*/
+
+/* Bundle display name */
+"CFBundleDisplayName" = "らじすな";
+
+/* Privacy - Location Always and When In Use Usage Description */
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "現在位置で聴取できるラジオ番組を取得するため位置情報を取得します。";
+
+/* Privacy - Location Always Usage Description */
+"NSLocationAlwaysUsageDescription" = "現在位置で聴取できるラジオ番組を取得するため位置情報を取得します。";
+
+/* Privacy - Location When In Use Usage Description */
+"NSLocationWhenInUseUsageDescription" = "現在位置で聴取できるラジオ番組を取得するため位置情報を取得します。";
+
+/* Privacy - Camera Usage Description */
+"NSCameraUsageDescription" = "このアプリは、ユーザーが直接カメラを使用することはありませんが、使用している外部ライブラリがカメラ関連の機能にアクセスする可能性があります。";
